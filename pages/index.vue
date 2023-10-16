@@ -5,7 +5,7 @@
     </h1>
     <img src="/images/dev%20.jpg" alt="dev-img" class="object-cover w-full h-56">
     <div class="p-5 mt-8">
-      <h2 class="text-xl font-light text-center mb-2">Últimas postagens</h2>
+      <h2 class="text-xl font-light text-center mb-5">Últimas postagens</h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-2">
         <PostCard
             v-for="{ _path: slug, title, description, cover } in posts"
@@ -18,7 +18,7 @@
       </div>
       <div class="flex justify-center mt-4">
         <NuxtLink to="/blog">
-          <button class="btn btn-primary">Ver todas os posts</button>
+          <button class="btn btn-primary">Ver todos os posts</button>
         </NuxtLink>
       </div>
     </div>
