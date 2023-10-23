@@ -3,6 +3,8 @@
     <div class="mb-4">
       <button class="btn btn-primary" @click="$router.back()">Voltar</button>
     </div>
-    <ContentDoc />
+    <article class="prose lg:prose-xl">
+      <ContentDoc />
+    </article>
   </div>
 </template>
