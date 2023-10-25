@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="text-center text-3xl my-8">
-      Bem vindo ao My Blog!!!
+      Bem vindo ao Blog do Danilo!!!
     </h1>
     <img src="/images/dev.jpg" alt="dev-img" class="object-cover w-full h-56">
     <div class="p-5 mt-8">
